@@ -10,4 +10,4 @@ git tag "${version}"
 git tag -d latest
 git tag latest
 git push
-git push --tags
+git push -f --tags
