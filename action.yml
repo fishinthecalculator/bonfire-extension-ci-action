@@ -1,0 +1,25 @@
+name: 'Bonfire extension QA'
+author: 'Giacomo Leidi'
+description: 'Uses Bonfire extensions standard commands to build and test an extension'
+# inputs:
+#   name:
+#     description: 'The name of the output image you would like to push'
+#     required: true
+#   username:
+#     description: 'The login username for the registry'
+#     required: true
+#   password:
+#     description: 'The login password for the registry'
+#     required: true
+#   image:
+#     description: 'The input image path'
+#     required: true
+#   registry:
+#     description: 'Use registry for pushing to a custom registry'
+#     required: false
+#   workdir:
+#     description: 'Use workdir when you would like to change the directory for building'
+#     required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
