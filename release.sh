@@ -7,5 +7,7 @@ version="$1"
 git add --all
 git commit -m "Release ${version}."
 git tag "${version}"
+git tag -d latest
+git tag latest
 git push
 git push --tags
